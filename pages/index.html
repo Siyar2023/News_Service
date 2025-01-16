@@ -4,21 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>News Service</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="../css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
 <header>
   <div class="container">
-    <h1>📰News Service</h1>
+    <h1>📰 News Service</h1>
     <nav>
       <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#world">World</a></li>
-        <li><a href="#technology">Tech</a></li>
-        <li><a href="#sports">Sports</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="world.html">World</a></li>
+        <li><a href="tech.html">Tech</a></li>
+        <li><a href="health.html">Health</a></li>
+        <li><a href="sports.html">Sports</a></li>
+        <li><a href="contact.html">Contact</a></li>
+
       </ul>
     </nav>
   </div>
@@ -30,18 +32,21 @@
     <div class="news-grid">
       <article class="news-card">
         <div class="news-content">
-          <h3>Tech: 5G, The Future of Connectivity</h3>
+          <span class="category">World</span>
+          <h3>5G, The Future of Connectivity</h3>
           <p>5G technology is revolutionizing connectivity with ultra fast speeds and low latency, promising to transform industries from healthcare to entertainment.
             It enables faster downloads, seamless streaming, and supports the growing Internet of Things (IoT).
             As 5G networks expand, they will drive innovations in smart cities, autonomous vehicles, and more,
             changing the way we live and work.</p>
+
           <button class="like-btn">👍 Like</button>
           <p class="like-count">Likes: 0</p>
         </div>
       </article>
       <article class="news-card">
         <div class="news-content">
-          <h3>World: Climate Crisis, Immediate Action Needed</h3>
+          <span class="category">World</span>
+          <h3>Climate Crisis, Immediate Action Needed</h3>
           <p>The UN warns that global temperatures are rising, causing extreme weather and environmental damage.
             With the planet already 1.2°C warmer, urgent action is required to reduce emissions and switch to renewable energy.
             Rising sea levels and food shortages threaten vulnerable regions.
@@ -52,6 +57,7 @@
       </article>
       <article class="news-card">
         <div class="news-content">
+          <span class="category">Sports</span>
           <h3>Sport: Real Madrid Wins UEFA Super Cupt</h3>
           <p>Real Madrid triumphed 2-0 over Atalanta in the UEFA Super Cup on August 14, 2024, in Warsaw.
             Federico Valverde opened the scoring, and Kylian Mbappé sealed the win with a goal on his debut.
